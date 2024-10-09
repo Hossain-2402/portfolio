@@ -245,18 +245,104 @@ body{
 	border-radius: 10px;
 }
 
+.what_i_can_make_header_text{
+	color:white;	
+	margin:50vh 0 0 50%;
+	padding:2vh 0;
+	transform: translate(-50%,0);
+	border-bottom: 2px solid white;
+	text-align: center;
+	font-size: 40px;
+	font-family: new amsterdam;
 
-
-
-
-
-/*.item{
-	height:100vh;
-	width:100vw;
-	background: red;
-	margin:500vh 0 0 0;
 }
-*/
+
+.what_i_can_make{
+	height:50vh;
+	width:80vw;
+	margin:10vh 0 50vh 50%;
+	transform: translate(-50%,0);
+	display: flex;
+	gap:2vw;
+	padding:0 2vw;
+	perspective: 100em;
+}
+
+.capablity{
+	flex:1;
+	height:100%;
+	transform: rotateY(-45deg) rotateX(45deg) scale(1);;
+	color:white;
+	font-family: verdana;
+	transition:.4s;
+	filter:grayscale(100%);
+}
+
+.c1{
+	background:url(health_care_image.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.c1:before{
+	content:'Health care';
+	position: absolute;
+	height:100%;
+	width:100%;
+	background:rgba(0,0,0,.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.c2{
+	background:url(e-commerce_image.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.c2:before{
+	content:'E-commerce';
+	position: absolute;
+	height:100%;
+	width:100%;
+	background:rgba(0,0,0,.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.c3{
+	background:url(portfolio.jpeg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.c3:before{
+	content:'Portfolio';
+	position: absolute;
+	height:100%;
+	width:100%;
+	background:rgba(0,0,0,.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.capablity:hover{
+	transform: rotateY(0) rotateX(0) scale(1.2);
+	z-index: 2;
+	filter:grayscale(0%);
+}
+
+.c2{
+	transform: rotateY(45deg) rotateX(45deg) scale(1);
+}
+
+
+
+
 @media(max-width:991px){
 	body{
 		margin:0;
@@ -331,6 +417,21 @@ body{
 
 	.project_thumbnail{
 		border-radius: 0;
+	}
+
+	.what_i_can_make_header_text{
+		font-size: 20px;
+	}
+
+	.what_i_can_make{
+		height:10vh;
+		width:90vw;
+		margin: 10vh 0 50vh 0 ;
+		transform: translate(0,0);
+	}
+
+	.capablity{
+		font-size: 8px;
 	}
 
 

@@ -96,10 +96,13 @@ export default function Home() {
 
       </div>
 
+      <div className="what_i_can_make_header_text">websites I offer</div>
 
-
-      <div className="item"></div>
-
+      <div className="what_i_can_make">
+        <div className="capablity c1"></div>
+        <div className="capablity c2"></div>
+        <div className="capablity c3"></div>
+      </div>
 
     </div>
   );
@@ -109,4 +112,4 @@ export default function Home() {
 
 
 
-      {/*<YouTube videoId="uxSNuQICQ-A"  opts={opts} onReady={(e)=>{ e.target.pauseVideo(); }} />*/}
+{/*<YouTube videoId="uxSNuQICQ-A"  opts={opts} onReady={(e)=>{ e.target.pauseVideo(); }} />*/}
