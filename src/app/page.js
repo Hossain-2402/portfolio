@@ -28,7 +28,7 @@ export default function Home() {
 
 
       <div className="landing_area">
-        <Image alt="no image found" src={leading_image} className="gradient_area"/>
+        <div className="gradient_area"></div>
         <div className="main_content_area">
           <Image alt="no image found" src={my_image} className="my_image"/>
           <div className="greetings">Hey there ,</div>
