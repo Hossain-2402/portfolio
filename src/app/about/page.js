@@ -7,10 +7,7 @@ export default function About() {
   return (
     <div className="About">
 
-      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
 
-      <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet"/>
-      <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet"/>
       <div className="text_area ">
         <div className="text">
           <center>Next js | React Js | Firebase | HTML | CSS</center>
@@ -31,3 +28,5 @@ export default function About() {
     </div>
   );
 }
+
+
