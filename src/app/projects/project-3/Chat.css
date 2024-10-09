@@ -1,0 +1,140 @@
+body{
+	background: #262626;
+	margin:0 0 10vh 0;
+	padding:0;
+}
+
+.chat_image{
+	height:800px;
+	width:95vw;
+	margin:5vh 0 0 50%;
+	transform: translate(-50%,0);
+	border-radius: 10px;
+	background: url(project_3.png) no-repeat;
+	background-size:100%;
+	animation:animate_image 2s forwards;
+}
+
+@keyframes animate_image{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+
+.chat_name{
+	padding:2vh 0 2vh 2vw;
+	margin:15vh 0 0 0;
+	color:white;
+	text-align: center;
+	font-size: 40px;
+	font-family: verdana;
+	border-bottom: 2px solid white;
+}
+
+.chat_description{
+	height:auto;
+	width:95vw;
+	margin:5vh 0 0 50%;
+	padding:2vh 0;
+	transform: translate(-50%,0);
+	text-align: justify;
+	font-family: "SUSE", sans-serif;
+	color:white;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.chat_link{
+	margin:2vh 0 10vh 2vw;
+	text-decoration: none;
+	color:green;
+	font-family: "New Amsterdam", sans-serif;
+	font-size: 20px;
+	border-bottom: 2px solid green;
+	transition: .4s;
+}
+
+
+@media(max-width:991px){
+	body{
+		margin: 0 0 15vh 0;
+	}
+	.chat_image{
+		height:250px;
+		background-size:100%;
+		margin:10vh 0 0 50%;
+	}
+
+	.chat_name{
+		padding:0 0 2vh 2vw ;
+		margin:1vh 0;
+		font-size: 20px;
+	}
+}
+
+@media screen and (orientation:landscape){
+	body{
+		background: #262626;
+		margin:0 0 10vh 0;
+		padding:0;
+	}
+
+	.chat_image{
+		height:800px;
+		width:95vw;
+		margin:5vh 0 0 50%;
+		transform: translate(-50%,0);
+		border-radius: 10px;
+		background: url(project_3.png) no-repeat;
+		background-size:100%;
+		animation:animate_image 2s forwards;
+	}
+
+	@keyframes animate_image{
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+
+
+	.chat_name{
+		padding:2vh 0 2vh 2vw;
+		margin:5vh 0 0 0;
+		color:white;
+		text-align: center;
+		font-size: 40px;
+		font-family: verdana;
+		border-bottom: 2px solid white;
+	}
+
+	.chat_description{
+		height:auto;
+		width:95vw;
+		margin:5vh 0 0 50%;
+		padding:2vh 0;
+		transform: translate(-50%,0);
+		text-align: justify;
+		font-family: "SUSE", sans-serif;
+		color:white;
+		font-size: 20px;
+		line-height: 40px;
+	}
+
+	.chat_link{
+		margin:2vh 0 10vh 2vw;
+		text-decoration: none;
+		color:green;
+		font-family: "New Amsterdam", sans-serif;
+		font-size: 20px;
+		border-bottom: 2px solid green;
+		transition: .4s;
+	}
+
+}

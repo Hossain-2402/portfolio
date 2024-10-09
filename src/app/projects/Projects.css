@@ -1,0 +1,161 @@
+body{
+	background: #262626;
+	padding:0;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.cards{
+	margin-bottom: 15vh;
+}
+
+.card{
+	position: sticky;
+	top:10vh;
+	height:75vh;
+	width:80vw;
+	text-decoration: none;
+	margin-top: 10vh;
+	background: url(project_1.png) no-repeat;
+	background-size: cover;
+	margin-left:50%;
+	transform: translate(-50%,0);
+	box-shadow: 0 0 10px black;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: .4s;
+}
+
+.card:hover{
+	box-shadow: 0 0 50px black;
+	transform: translate(-50%,0) scale(1.05);
+}
+
+.gray_area{
+	height:101%;
+	width:101%;
+	background: rgba(0,0,0,.75);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	font-size: 50px;
+	font-family: "SUSE", sans-serif;
+	cursor: pointer;
+}
+
+.layer{
+
+	position: sticky;
+	top:0;
+	height:75vh;
+	width:80vw;
+	margin-top: 10vh;
+	background:none;
+	margin-left:50%;
+	transform: translate(-50%,0);
+}
+
+.c2{
+	background: url(project_2.png) no-repeat;
+	background-size: cover;	
+}
+
+.c3{
+	background: url(project_3.png) no-repeat;
+	background-size: cover;	
+}
+
+
+@media(max-width:991px){
+	.card{
+		height:20vh;
+		width:90vw;
+		top:40vh;
+		margin-top:40vh;
+	}
+
+	.gray_area{
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (orientation:landscape){
+	body{
+		background: #262626;
+		padding:0;
+		margin:0;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	.cards{
+		margin-bottom: 15vh;
+	}
+
+	.card{
+		position: sticky;
+		top:10vh;
+		height:75vh;
+		width:80vw;
+		text-decoration: none;
+		margin-top: 10vh;
+		background: url(project_1.png) no-repeat;
+		background-size: cover;
+		margin-left:50%;
+		transform: translate(-50%,0);
+		box-shadow: 0 0 10px black;
+		border-radius: 10px;
+		overflow: hidden;
+		transition: .4s;
+	}
+
+	.card:hover{
+		box-shadow: 0 0 50px black;
+		transform: translate(-50%,0) scale(1.05);
+	}
+
+	.gray_area{
+		height:101%;
+		width:101%;
+		background: rgba(0,0,0,.75);
+		border-radius: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color:white;
+		font-size: 50px;
+		font-family: "SUSE", sans-serif;
+		cursor: pointer;
+	}
+
+	.layer{
+
+		position: sticky;
+		top:0;
+		height:75vh;
+		width:80vw;
+		margin-top: 10vh;
+		background:none;
+		margin-left:50%;
+		transform: translate(-50%,0);
+	}
+
+	.c2{
+		background: url(project_2.png) no-repeat;
+		background-size: cover;	
+	}
+
+	.c3{
+		background: url(project_3.png) no-repeat;
+		background-size: cover;	
+	}
+
+}

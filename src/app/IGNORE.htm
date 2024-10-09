@@ -1,0 +1,168 @@
+<html>
+<!-- <head><link rel="stylesheet" href="codegrid.css"> -->
+	<style type="text/css" media="screen">
+		
+		body{
+			padding: 0;
+			margin: 0;
+			background: url(background.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.container{
+			position: fixed;
+			height: 8vh;
+			width: 60%;
+			background:transparent;
+			overflow: hidden;
+			top: 72%;
+			margin-left: 50%;
+			transform: translate(-50%,0);
+			border-radius: 10px;
+			box-shadow: 0 0 10px black;
+			backdrop-filter: blur(10px);
+		}
+		.nevbar{
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			border-radius: 10px;
+			background: none;
+			opacity: 1;
+			display: flex;
+			transition: 0.3s;
+		}
+		.nevbar.active{
+			opacity: 0;
+		}
+		.empty_btn{
+			height: 100%;
+			flex: 1;
+			background: none;
+			border-radius: 10px;
+		}
+		.home_btn{
+			height: 100%;
+			flex: 1;
+			background: none;
+			border-radius: 10px;
+			color: white;
+			font-family: verdana;
+			text-align: center;
+			padding: 2vh 0 2vh 0;
+			cursor: pointer;
+		}
+		.about_btn{
+			height: 100%;
+			flex: 1;
+			background: none;
+			border-radius: 10px;
+			color: white;
+			font-family: verdana;
+			text-align: center;
+			padding: 2vh 0 2vh 0;
+			cursor: pointer;
+		}
+		.join_btn{
+			height: 100%;
+			flex: 1;
+			background: none;
+			border-radius: 10px;
+			color: white;
+			font-family: verdana;
+			text-align: center;
+			padding: 2vh 0 2vh 0;
+			cursor: pointer;
+		}
+		.menu_btn{
+			position: absolute;
+			background: none;
+			color: white;
+			height: 100%;
+			width: 25%;
+			border-radius: 10px;
+			font-family: verdana;
+			vertical-align: middle;
+			text-align: center;
+			padding: 2% 0 2% 0;
+			backdrop-filter: blur(10px);
+			transition: .6s;
+			cursor: pointer;
+		}
+		.menu_btn.active{
+			width: 100%;
+
+		}
+		.menu_area{
+			position: fixed;
+			height: 60%;
+			width: 70%;
+			background: none;
+			opacity: 0;
+			backdrop-filter: blur(10px);
+			border-radius: 10px;
+			box-shadow: 0 0 10px black;
+			top: 10vh;
+			left: 50%;
+			transform: translate(-50%,0);
+			transition: 1s;
+		}
+		.menu_area.active{
+			opacity: 1;
+		}
+
+		.exit_btn{
+			width: 5vw;
+			position: absolute;
+			top: 2vh;
+			right: 2vw;
+			background: none;
+			color: white;
+			border-radius: 5px;
+			box-shadow: 0 0 10px black;
+			font-family: verdana;
+			padding: 1vh 0 1vh 0;
+			text-align: center;
+			backdrop-filter: blur(10px);
+			cursor: pointer;
+		}
+	</style>
+
+
+</head>
+
+
+<body>
+
+<div class="container">
+	<div class="nevbar">
+		<div class="empty_btn"></div>
+
+		<div class="home_btn">Home</div>
+		<div class="about_btn">About</div>
+		<div class="join_btn">Join</div>
+	</div>
+	<div class="menu_btn">
+		Menu
+	</div>
+</div>
+<div class="menu_area">
+	<div class="exit_btn">Exit</div>
+</div>
+
+<script type="text/javascript">
+	document.querySelector(".menu_btn").addEventListener("click",function(){
+		document.querySelector(".menu_btn").classList.add("active");
+		document.querySelector(".nevbar").classList.add("active");
+		document.querySelector(".menu_area").classList.add("active");
+	});
+	document.querySelector(".exit_btn").addEventListener("click",function(){
+		document.querySelector(".menu_btn").classList.remove("active");
+		document.querySelector(".nevbar").classList.remove("active");
+		document.querySelector(".menu_area").classList.remove("active");
+	});
+</script>
+
+</body>
+</html>
