@@ -35,8 +35,8 @@ export default function Home() {
         <div className="main_content_area">
           <Image src={my_image} className="my_image"/>
           <div className="greetings">Hey there ,</div>
-          <div className="name_text">I'm Hossain Ibna Ehsan</div>
-          <div className="description_area"><p className="text_in_landing_page">I’m a Web developer specializing in responsive full-stack websites and scalable platforms designed to meet business needs and convert visitors into customers.</p>
+          <div className="name_text">I am Hossain Ibna Ehsan</div>
+          <div className="description_area"><p className="text_in_landing_page">I am a Web developer specializing in responsive full-stack websites and scalable platforms designed to meet business needs and convert visitors into customers.</p>
           </div>
         </div>
       </div>
