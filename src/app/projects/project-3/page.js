@@ -3,8 +3,6 @@ import "./Chat.css";
 export default function Project_3() {
   return (
     <div className="Project_3">
-      <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet"/>
-      <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet"/>
       <div className="chat_image"></div>
       <div className="chat_name">Chatting website</div>
       <div className="chat_description">This website is a chatting website. It was made with the features of group chatting, uploading images etc. I have made this website using these skills. 

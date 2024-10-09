@@ -28,9 +28,9 @@ export default function Home() {
 
 
       <div className="landing_area">
-        <Image src={leading_image} className="gradient_area"/>
+        <Image alt="no image found" src={leading_image} className="gradient_area"/>
         <div className="main_content_area">
-          <Image src={my_image} className="my_image"/>
+          <Image alt="no image found" src={my_image} className="my_image"/>
           <div className="greetings">Hey there ,</div>
           <div className="name_text">I am Hossain Ibna Ehsan</div>
           <div className="description_area"><p className="text_in_landing_page">I am a Web developer specializing in responsive full-stack websites and scalable platforms designed to meet business needs and convert visitors into customers.</p>
@@ -57,7 +57,7 @@ export default function Home() {
             <div className="main_tab">Website.com</div>
             <div className="tab_gap"></div>
           </div>
-          <Image src={peoject_1} objectFit="cover" layout="responsive" className="project_thumbnail"/>
+          <Image alt="no image found" src={peoject_1} objectFit="cover" layout="responsive" className="project_thumbnail"/>
         </Link>
 
         <Link href="/projects/project-2" className="project p2">
@@ -74,7 +74,7 @@ export default function Home() {
             <div className="main_tab">Website.com</div>
             <div className="tab_gap"></div>
           </div>
-          <Image src={peoject_2} objectFit="cover" layout="responsive" className="project_thumbnail"/>
+          <Image alt="no image found" src={peoject_2} objectFit="cover" layout="responsive" className="project_thumbnail"/>
         </Link>
 
         <Link href="/projects/project-3" className="project p3">
@@ -91,7 +91,7 @@ export default function Home() {
             <div className="main_tab">Website.com</div>
             <div className="tab_gap"></div>
           </div>
-          <Image src={peoject_3} objectFit="cover" layout="responsive" className="project_thumbnail"/>
+          <Image alt="no image found" src={peoject_3} objectFit="cover" layout="responsive" className="project_thumbnail"/>
         </Link>
 
       </div>

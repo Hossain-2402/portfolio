@@ -3,8 +3,6 @@ import "./Project_1.css";
 export default function Project_1() {
   return (
     <div className="Project_1">
-      <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet"/>
-      <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet"/>
       <div className="cz_image"></div>
       <div className="cz_name">Comfort Zone</div>
       <div className="cz_description">This website is built for a real world business. It is a cloting brand. I have made this website using these skills. 
