@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <div className="Projects">
-      <!-- <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet"/> -->
       <div className="cards">
         
         <a href="/projects/project-1">
