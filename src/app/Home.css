@@ -92,6 +92,7 @@ body{
 	text-align: center;
 	font-size: 40px;
 	color:white;
+	font-family: var(--font-montserrat);
 	margin:15vh 0 0 50%;
 	transform: translate(-50%,0) rotateX(0deg);
 	padding:2vh 0;

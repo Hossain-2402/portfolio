@@ -23,9 +23,13 @@ export default function Home() {
             },
         };
 
+
   return (
     <div className="Home">
 
+
+      <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet"/>
 
       <div className="landing_area">
         <div className="gradient_area"></div>
