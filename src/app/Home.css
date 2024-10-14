@@ -65,24 +65,53 @@ body{
 	perspective: 100em;
 }
 
-.my_image{
+
+.my_image_cover{
 	height:20vh;
 	width:20vh;
+	position: relative;
+	background: red;
 	border-radius: 100%;
 	margin:10vh 0 0 50%;
 	transform: translate(-50%,0) scale(1);
+/*	overflow: hidden ;*/
+}
+
+
+.my_image{
+	position: absolute;
+	top: 0;
+	left:0 ;
+	height:20vh;
+	width:20vh;
+	border-radius: 100%;
+	margin:0vh 0 0 50%;
+	transform: translate(-50%,0) scale(1);
+}
+
+.my_image_lazy_loader{
+	position: absolute;
+	top: 0;
+	left:0 ;
+	height:100%;
+	width:100%;
+	background: #FE683D;
+	border-radius: 100%;
+	margin:0vh 0 0 50%;
+	transform: translate(-50%,0) scale(0);
 	animation:animate_my_image 5s forwards;
 }
 
-@keyframes animate_my_image{
-	0%{
-		transform: translate(-50%,0) scale(0);
+
+
+@keyframes animate_my_image{	0%{
+		transform: translate(-50%,0) scale(1);
 	}
 	45%{
-		transform: translate(-50%,0) scale(0);
+		transform: translate(-50%,0) scale(1);
 	}
 	50%{
-		transform: translate(-50%,0) scale(1);
+		transform: translate(-50%,0) scale(0);
 	}
 }
 
@@ -340,6 +369,27 @@ body{
 .c2{
 	transform: rotateY(45deg) rotateX(45deg) scale(1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

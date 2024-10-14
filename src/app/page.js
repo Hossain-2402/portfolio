@@ -12,6 +12,11 @@ import peoject_1 from "./project_1.png"
 import peoject_2 from "./project_2.png"
 import peoject_3 from "./project_3.png"
 
+    // const { encode } = require('blurhash');
+    // const sharp = require('sharp');
+    // const fs = require('fs');
+
+
 export default function Home() {
 
   const opts = {
@@ -23,7 +28,6 @@ export default function Home() {
             },
         };
 
-
   return (
     <div className="Home">
 
@@ -34,7 +38,10 @@ export default function Home() {
       <div className="landing_area">
         <div className="gradient_area"></div>
         <div className="main_content_area">
-          <Image alt="no image found" src={my_image} className="my_image"/>
+          <div  className="my_image_cover">
+            <Image alt="no image found" src={my_image} className="my_image"/>
+            <div  className="my_image_lazy_loader"></div>
+          </div>
           <div className="greetings">Hey there ,</div>
           <div className="name_text">I am Hossain Ibna Ehsan</div>
           <div className="description_area"><p className="text_in_landing_page">I am a Web developer specializing in responsive full-stack websites and scalable platforms designed to meet business needs and convert visitors into customers.</p>
@@ -107,6 +114,11 @@ export default function Home() {
         <div className="capablity c2"></div>
         <div className="capablity c3"></div>
       </div>
+
+
+
+      <div className="blur_image"></div>
+
 
     </div>
   );
