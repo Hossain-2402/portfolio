@@ -70,11 +70,10 @@ body{
 	height:20vh;
 	width:20vh;
 	position: relative;
-	background: red;
 	border-radius: 100%;
 	margin:10vh 0 0 50%;
 	transform: translate(-50%,0) scale(1);
-/*	overflow: hidden ;*/
+	overflow: hidden ;
 }
 
 
@@ -96,15 +95,18 @@ body{
 	height:100%;
 	width:100%;
 	background: #FE683D;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 100%;
 	margin:0vh 0 0 50%;
-	transform: translate(-50%,0) scale(0);
-	animation:animate_my_image 5s forwards;
+	transform: translate(-50%,0) scale(1);
+	animation:animate_my_image 6s forwards;
 }
 
 
-
-@keyframes animate_my_image{	0%{
+@keyframes animate_my_image{	
+	0%{
 		transform: translate(-50%,0) scale(1);
 	}
 	45%{
@@ -113,7 +115,29 @@ body{
 	50%{
 		transform: translate(-50%,0) scale(0);
 	}
+	100%{
+		transform: translate(-50%,0) scale(0);
+	}
 }
+
+.loading_circle{
+	height:50%;
+	width:50%;
+	border-radius: 50%;
+	border-top:10px solid white;
+	border-left:10px solid white;
+	animation: animate_loading_circle 2s linear ;
+}
+
+@keyframes animate_loading_circle{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
 
 .greetings{
 	height:auto;

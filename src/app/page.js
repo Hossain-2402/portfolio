@@ -40,7 +40,9 @@ export default function Home() {
         <div className="main_content_area">
           <div  className="my_image_cover">
             <Image alt="no image found" src={my_image} className="my_image"/>
-            <div  className="my_image_lazy_loader"></div>
+            <div  className="my_image_lazy_loader">
+              <div className="loading_circle"></div>
+            </div>
           </div>
           <div className="greetings">Hey there ,</div>
           <div className="name_text">I am Hossain Ibna Ehsan</div>
@@ -107,7 +109,7 @@ export default function Home() {
 
       </div>
 
-      <div className="what_i_can_make_header_text">websites I offer</div>
+      <div className="what_i_can_make_header_text">websites I make</div>
 
       <div className="what_i_can_make">
         <div className="capablity c1"></div>
