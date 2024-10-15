@@ -40,13 +40,15 @@ export default function Home() {
         <div className="main_content_area">
           <div  className="my_image_cover">
             <Image src={my_image} className="my_image"/>
-{/*            <div  className="my_image_lazy_loader">
-              <div className="loading_circle">
-                <div className="inner_circle"></div>
-              </div>
+
+            {/*div  className="my_image_lazy_loader">
+                <div className="loading_circle">
+                  <div className="inner_circle"></div>
+                </div>
             </div>*/}
+
           </div>
-          <div className="greetings">Hey there ,</div>
+          <div className="greetings">Hi there,</div>
           <div className="name_text">I am Hossain Ibna Ehsan</div>
           <div className="description_area"><p className="text_in_landing_page">I am a Web developer specializing in responsive full-stack websites and scalable platforms designed to meet business needs and convert visitors into customers.</p>
           </div>

@@ -241,10 +241,26 @@ body{
 	color:white;
 	margin-left:50%;
 	transform: translate(-50%,0);
-	border-bottom: 2px solid white;
+	border-bottom: 0px solid white;
 	text-align: center;
 	font-size: 40px;
 	font-family: new amsterdam;
+	animation:animate_border_of_projects_header_text 5s ease-in-out;
+	animation-timeline: view();
+	animation-range-start: 0vh;
+	animation-range-end:99vh;
+	opacity: 0;
+}
+
+@keyframes animate_border_of_projects_header_text{
+	from{
+		border-bottom:0;
+		opacity: 0;
+	}
+	to{
+		border-bottom: 2px solid white;
+		opacity: 1;
+	}
 }
 
 .project{
@@ -324,12 +340,29 @@ body{
 	margin:50vh 0 0 50%;
 	padding:2vh 0;
 	transform: translate(-50%,0);
-	border-bottom: 2px solid white;
+	border-bottom: 0px solid white;
 	text-align: center;
 	font-size: 40px;
 	font-family: new amsterdam;
 
+	animation:animate_border_of_what_i_can_make_header_text 5s ease-in-out;
+	animation-timeline: view();
+	animation-range-start: 0vh;
+	animation-range-end:99vh;
+	opacity: 0;
 }
+
+@keyframes animate_border_of_what_i_can_make_header_text{
+	from{
+		border-bottom:0;
+		opacity: 0;
+	}
+	to{
+		border-bottom: 2px solid white;
+		opacity: 1;
+	}
+}
+
 
 .what_i_can_make{
 	height:50vh;
@@ -350,6 +383,7 @@ body{
 	font-family: suse;
 	transition:.4s;
 	filter:grayscale(100%);
+	z-index: 1;
 }
 
 .c1{
@@ -524,8 +558,8 @@ body{
 	.what_i_can_make{
 		height:10vh;
 		width:90vw;
-		margin: 10vh 0 50vh 0 ;
-		transform: translate(0,0);
+		margin: 10vh 0 50vh 50% ;
+		transform: translate(-50%,0);
 	}
 
 	.capablity{
