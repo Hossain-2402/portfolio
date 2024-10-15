@@ -39,7 +39,7 @@ export default function Home() {
         <div className="gradient_area"></div>
         <div className="main_content_area">
           <div  className="my_image_cover">
-            <Image src={my_image} className="my_image"/>
+            <Image alt="" src={my_image} className="my_image"/>
 
             {/*div  className="my_image_lazy_loader">
                 <div className="loading_circle">
