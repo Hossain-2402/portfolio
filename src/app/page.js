@@ -110,7 +110,6 @@ export default function Home() {
           </div>
           <Image alt="no image found" src={peoject_3} objectFit="cover" layout="responsive" className="project_thumbnail"/>
         </Link>
-
       </div>
 
       <div className="what_i_can_make_header_text">websites I make</div>
@@ -123,8 +122,16 @@ export default function Home() {
 
 
 
-      <div className="blur_image"></div>
-
+      {/*<div className="blur_image"></div>*/}
+      <div className="footer">
+        <div className="open_to_work_area">
+          <div className="open_to_work_text">Open To Work </div>
+          <div className="open_to_work_description">I am a Web developer specializing in responsive full-stack websites and scalable platforms designed to meet business needs and convert visitors into customers.</div>
+        </div>
+        <div className="socials facebook">b</div>
+        <div className="socials E_mail">c</div>
+        <div className="socials Linked_in">d</div>
+      </div>
 
     </div>
   );
