@@ -5,6 +5,10 @@ import React from "react";
 import YouTube from "react-youtube";
 import Image from "next/image";
 import Link from "next/link";
+import { FaBeer } from "react-icons/fa";
+import { FaFacebook } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import { FaLinkedin } from 'react-icons/fa';
 
 import leading_image from "./leading_image.jpeg";
 import my_image from "./leading_image_2.jpg"
@@ -126,11 +130,11 @@ export default function Home() {
       <div className="footer">
         <div className="open_to_work_area">
           <div className="open_to_work_text">Open To Work </div>
-          <div className="open_to_work_description">I am a Web developer specializing in responsive full-stack websites and scalable platforms designed to meet business needs and convert visitors into customers.</div>
+          <div className="open_to_work_description">I'm excited to create a new website, where I can dive into the design and development process and bring innovative ideas to life. Working on a new project motivates me to explore creative solutions and push boundaries to deliver something truly unique.</div>
         </div>
-        <div className="socials facebook">b</div>
-        <div className="socials E_mail">c</div>
-        <div className="socials Linked_in">d</div>
+        <div className="socials facebook"><a href="https://www.facebook.com/hossainibnaehsan" className="social_icons"><FaFacebook /></a></div>
+        <div className="socials E_mail"><a href="https://hossain.ie.official@gmail.com" className="social_icons"><MdEmail /></a></div>
+        <div className="socials Linked_in"><a href="#" className="social_icons"><FaLinkedin /></a></div>
       </div>
 
     </div>

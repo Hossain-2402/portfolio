@@ -1,3 +1,7 @@
+*{
+	scroll-behavior: smooth;
+}
+
 body{
 	background: #262626;
 	padding:0;
@@ -509,6 +513,12 @@ body{
 	color:white;
 }
 
+.social_icons{
+	font-size: 40px;
+	color:white;
+	text-decoration: none;
+}
+
 
 
 
@@ -622,8 +632,12 @@ body{
 	}
 
 	.open_to_work_description{
-		font-size: 14px;
+		font-size: 12px;
 	}
 
+
+	.social_icons{
+		font-size:20px;
+	}
 
 }
