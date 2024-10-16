@@ -136,6 +136,7 @@ export default function Home() {
         <div className="socials E_mail"><a href="https://hossain.ie.official@gmail.com" className="social_icons"><MdEmail /></a></div>
         <div className="socials Linked_in"><a href="#" className="social_icons"><FaLinkedin /></a></div>
       </div>
+      
 
     </div>
   );
