@@ -130,7 +130,7 @@ export default function Home() {
       <div className="footer">
         <div className="open_to_work_area">
           <div className="open_to_work_text">Open To Work </div>
-          <div className="open_to_work_description">I'm excited to create a new website, where I can dive into the design and development process and bring innovative ideas to life. Working on a new project motivates me to explore creative solutions and push boundaries to deliver something truly unique.</div>
+          <div className="open_to_work_description">I am excited to create a new website, where I can dive into the design and development process and bring innovative ideas to life. Working on a new project motivates me to explore creative solutions and push boundaries to deliver something truly unique.</div>
         </div>
         <div className="socials facebook"><a href="https://www.facebook.com/hossainibnaehsan" className="social_icons"><FaFacebook /></a></div>
         <div className="socials E_mail"><a href="https://hossain.ie.official@gmail.com" className="social_icons"><MdEmail /></a></div>
