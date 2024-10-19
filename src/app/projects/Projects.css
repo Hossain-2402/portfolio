@@ -19,8 +19,7 @@ a{
 	width:80vw;
 	text-decoration: none;
 	margin-top: 10vh;
-	background: url(project_1.png) no-repeat;
-	background-size: cover;
+	background: black;
 	margin-left:50%;
 	transform: translate(-50%,0);
 	box-shadow: 0 0 10px black;
@@ -32,6 +31,17 @@ a{
 .card:hover{
 	box-shadow: 0 0 50px black;
 	transform: translate(-50%,0) scale(1.05);
+}
+
+.project_cover_image{
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	border-radius: 10px;
+	border:0;
+	z-index: -1;
 }
 
 .gray_area{
